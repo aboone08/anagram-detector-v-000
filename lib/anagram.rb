@@ -11,7 +11,7 @@ class Anagram
   end
 
   def match
-    %w().select do |word|
+    %w.select do |word|
 
       #word.split("").sort == @word.split("").sort
 
