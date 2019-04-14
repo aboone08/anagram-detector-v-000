@@ -12,6 +12,7 @@ class Anagram
       word
     else %w()
       []
+    end
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
   #  end
