@@ -10,7 +10,7 @@ class Anagram
 
   def match(anagram)
     if %w(word)
-    
+
     else %w()
         @@all
     end
