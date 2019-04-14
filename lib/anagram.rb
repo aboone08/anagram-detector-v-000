@@ -14,7 +14,7 @@ class Anagram
   def match(anagram)
     if word.split("").sort == @word.split("").sort
       else
-        %w()
+        %w([])
       end
 
   #  array.select do |word|
