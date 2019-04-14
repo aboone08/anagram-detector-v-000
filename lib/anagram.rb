@@ -15,6 +15,6 @@ class Anagram
   end
 
   def match
-    word.match(other words)
+    word.match(%w[])
   end
 end
