@@ -11,9 +11,9 @@ class Anagram
   end
 
   def match(anagram)
-    if anagram.!match(@@all)
+    if anagram.!match(self)
       %w()
-    else anagram.match(@@all)
+    else anagram.match(self)
       %w(word)
     end
   #  array.select do |word|
