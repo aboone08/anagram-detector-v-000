@@ -8,8 +8,10 @@ class Anagram
   end
 
   def match(anagram)
-    %w() 
-
+    if anagram.!match()
+      %w()
+    else anagram.match()
+      
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
   #  end
