@@ -13,7 +13,7 @@ class Anagram
 
   def match(anagram)
     if %w(word)
-      @@all.split("").sort
+      @@all.select("").sort
     else
       @@all
     end
