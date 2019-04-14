@@ -1,8 +1,6 @@
 # Your code goes here!
 
 class Anagram
-  @@all= []
-
   attr_accessor :word
 
   def initialize(anagram)
