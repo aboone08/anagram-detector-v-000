@@ -15,6 +15,6 @@ class Anagram
   end
 
   def match
-    word.match(())
+    word.match()
   end
 end
