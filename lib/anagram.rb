@@ -10,9 +10,9 @@ class Anagram
 
   def match(anagram)
     if %w(word)
-      @@all
+    
     else %w()
-      []
+        @@all
     end
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
