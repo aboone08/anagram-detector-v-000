@@ -12,7 +12,7 @@ class Anagram
   end
 
   def match(anagram)
-    if %w(word)
+    if %w()
       @@all.select("").sort
     else
       @@all
