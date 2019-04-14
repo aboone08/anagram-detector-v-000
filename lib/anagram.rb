@@ -1,14 +1,16 @@
 # Your code goes here!
 
 class Anagram
-  attr_accessor :anagram
+  attr_accessor :word
 
-  def initialize(anagram)
-    @anagram = anagram
+  WORDS = []
+
+  def initialize(word)
+    @word = word
+    WORDS << self
   end
 
   def match(words)
-    if words.each do {word.match(%w[anagram])}
-      anagram
+    WORDS.split(" ") == word
   end
 end
