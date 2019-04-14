@@ -12,11 +12,7 @@ class Anagram
   end
 
   def match(anagram)
-    if %w()
-      @@all
-      else
-        word.split("").sort == @word.split("").sort
-      end
+    %w()
 
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
