@@ -9,7 +9,7 @@ class Anagram
 
   def match(anagram)
     if %w(word)
-      :word
+      @word
     else %w()
       []
     end
