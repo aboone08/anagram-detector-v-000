@@ -5,11 +5,12 @@ class Anagram
 
   def initialize(word)
     @word = word
+    @@all = []
   end
 
   def match(anagram)
     if %w(word)
-      word.split("").sort == @word.split("").sort
+      @@all
     else %w()
       []
     end
