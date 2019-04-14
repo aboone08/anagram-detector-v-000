@@ -11,7 +11,7 @@ class Anagram
     if anagram.!match()
       %w()
     else anagram.match()
-      
+    end
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
   #  end
