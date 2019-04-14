@@ -10,8 +10,8 @@ class Anagram
     WORDS << self
   end
 
-  def match(words)
-    WORDS.match do |word|
+  def match(WORDS)
+    WORDS.select do |word|
       word.split("").sort == @word.split("").sort
     end
   end
