@@ -8,6 +8,6 @@ class Anagram
   end
 
   def match(words)
-    words.match(%w(anagram))
+    if words.each do {|word|.match(%w[])}
   end
 end
