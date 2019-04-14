@@ -9,7 +9,7 @@ class Anagram
 
   def match(anagram)
     if %w(word)
-      @word
+      word.split("").sort == @word.split("").sort
     else %w()
       []
     end
