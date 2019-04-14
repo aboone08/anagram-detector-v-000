@@ -15,7 +15,7 @@ class Anagram
     if @@all
       %w(word)
     else
-      @word
+      #@word
     end
 
   #  array.select do |word|
