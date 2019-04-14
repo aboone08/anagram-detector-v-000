@@ -7,7 +7,7 @@ class Anagram
 
   def initialize(word)
     @word = word
-    @@self << self
+    @@all << self
   end
 
   def match(anagram)
