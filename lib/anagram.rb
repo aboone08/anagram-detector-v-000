@@ -14,7 +14,7 @@ class Anagram
     @@all
   end
 
-  def match
+  def self.match
     word.match(/%w[word]/)
   end
 end
