@@ -11,6 +11,6 @@ class Anagram
   end
 
   def match(words)
-    WORDS.split(" ") == word
+    WORDS.split(%w{}) == word
   end
 end
