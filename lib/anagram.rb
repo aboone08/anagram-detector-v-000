@@ -12,10 +12,10 @@ class Anagram
   end
 
   def match(anagram)
-    if %w()
-      @@all.select("").sort
+    if @@all
+      %w(word)
     else
-      @@all
+      @word
     end
 
   #  array.select do |word|
