@@ -3,20 +3,13 @@
 class Anagram
   attr_accessor :word
 
-  @@all = []
-
   def initialize(word)
-    @word = word
-    @@all << self
+    @words = words
   end
 
-  def match(anagram)
-    if anagram.!match(words)
-      %w()
-      %w(words)
+  def match(word_array)
+    word_array.select do |word|
+      word.split("").sort == @word.split("").sort   
     end
-  #  array.select do |word|
-  #    word.split("").sort == @word.split("").sort
-  #  end
   end
 end
