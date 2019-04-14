@@ -8,13 +8,13 @@ class Anagram
   def initialize(word)
     @word = word
     @@all << self
-    
+
   end
 
   def match(anagram)
     %w(word)
       @@all || self
-  
+
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
   #  end
