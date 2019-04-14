@@ -3,17 +3,17 @@
 class Anagram
   attr_accessor :word
 
-  WORDS = []
+  @@all = []
 
   def initialize(word)
     @word = word
   end
 
   def match(anagram)
-    if anagram.!match(words)
+    if anagram.!match(@@all)
       %w()
-    else anagram.match(words)
-      %w(WORDS)
+    else anagram.match(@@all)
+      %w(word)
     end
   #  array.select do |word|
   #    word.split("").sort == @word.split("").sort
