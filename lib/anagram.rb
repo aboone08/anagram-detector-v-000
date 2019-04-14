@@ -5,16 +5,11 @@ class Anagram
 
   attr_accessor :word
 
-  def initialize(word)
-    @word = word
-    @@all << self
+  def initialize(anagram)
+    @anagram = anagram
   end
 
-  def self.all
-    @@all
-  end
-
-  def match(word)
-    word.match?/[word]%w/
+  def match(words)
+    words.match(%w(anagram))
   end
 end
