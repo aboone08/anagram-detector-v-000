@@ -11,9 +11,8 @@ class Anagram
   end
 
   def match(anagram)
-    if anagram.!match(word)
+    if anagram.!match(words)
       %w()
-    else anagram.match(word)
       %w(word)
     end
   #  array.select do |word|
